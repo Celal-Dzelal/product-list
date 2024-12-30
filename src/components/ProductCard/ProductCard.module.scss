@@ -1,0 +1,13 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+.gallery {
+  border: 2px solid aqua;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
