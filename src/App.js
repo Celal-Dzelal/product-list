@@ -1,9 +1,12 @@
 import "./App.scss";
+import Header from "./components/header/Header";
+import ProductList from "./components/products/ProductList";
 
 function App() {
   return (
     <div className="App">
-      <h1>Product App</h1>
+      <Header />
+      <ProductList />
     </div>
   );
 }
