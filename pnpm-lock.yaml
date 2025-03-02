@@ -19,7 +19,10 @@ importers:
         version: 19.0.0(react@19.0.0)
       react-scripts:
         specifier: 5.0.1
-        version: 5.0.1(@babel/plugin-syntax-flow@7.26.0(@babel/core@7.26.0))(@babel/plugin-transform-react-jsx@7.25.9(@babel/core@7.26.0))(@types/babel__core@7.20.5)(eslint@8.57.1)(react@19.0.0)(sass@1.83.4)(type-fest@0.21.3)(typescript@4.9.5)
+        version: 5.0.1(@babel/plugin-syntax-flow@7.26.0(@babel/core@7.26.0))(@babel/plugin-transform-react-jsx@7.25.9(@babel/core@7.26.0))(@types/babel__core@7.20.5)(eslint@8.57.1)(react@19.0.0)(sass@1.85.1)(type-fest@0.21.3)(typescript@4.9.5)
+      sass:
+        specifier: ^1.85.1
+        version: 1.85.1
 
 packages:
 
@@ -4664,8 +4667,8 @@ packages:
       sass-embedded:
         optional: true
 
-  sass@1.83.4:
-    resolution: {integrity: sha512-B1bozCeNQiOgDcLd33e2Cs2U60wZwjUUXzh900ZyQF5qUasvMdDZYbQ566LJu7cqR+sAHlAfO6RMkaID5s6qpA==}
+  sass@1.85.1:
+    resolution: {integrity: sha512-Uk8WpxM5v+0cMR0XjX9KfRIacmSG86RH4DCCZjLU2rFh5tyutt9siAXJ7G+YfxQ99Q6wrRMbMlVl6KqUms71ag==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -7770,7 +7773,6 @@ snapshots:
   chokidar@4.0.3:
     dependencies:
       readdirp: 4.1.1
-    optional: true
 
   chrome-trace-event@1.0.4: {}
 
@@ -9075,8 +9077,7 @@ snapshots:
 
   immer@9.0.21: {}
 
-  immutable@5.0.3:
-    optional: true
+  immutable@5.0.3: {}
 
   import-fresh@3.3.0:
     dependencies:
@@ -10790,7 +10791,7 @@ snapshots:
 
   react-refresh@0.11.0: {}
 
-  react-scripts@5.0.1(@babel/plugin-syntax-flow@7.26.0(@babel/core@7.26.0))(@babel/plugin-transform-react-jsx@7.25.9(@babel/core@7.26.0))(@types/babel__core@7.20.5)(eslint@8.57.1)(react@19.0.0)(sass@1.83.4)(type-fest@0.21.3)(typescript@4.9.5):
+  react-scripts@5.0.1(@babel/plugin-syntax-flow@7.26.0(@babel/core@7.26.0))(@babel/plugin-transform-react-jsx@7.25.9(@babel/core@7.26.0))(@types/babel__core@7.20.5)(eslint@8.57.1)(react@19.0.0)(sass@1.85.1)(type-fest@0.21.3)(typescript@4.9.5):
     dependencies:
       '@babel/core': 7.26.0
       '@pmmmwh/react-refresh-webpack-plugin': 0.5.15(react-refresh@0.11.0)(type-fest@0.21.3)(webpack-dev-server@4.15.2(webpack@5.97.1))(webpack@5.97.1)
@@ -10830,7 +10831,7 @@ snapshots:
       react-refresh: 0.11.0
       resolve: 1.22.10
       resolve-url-loader: 4.0.0
-      sass-loader: 12.6.0(sass@1.83.4)(webpack@5.97.1)
+      sass-loader: 12.6.0(sass@1.85.1)(webpack@5.97.1)
       semver: 7.6.3
       source-map-loader: 3.0.2(webpack@5.97.1)
       style-loader: 3.3.4(webpack@5.97.1)
@@ -10903,8 +10904,7 @@ snapshots:
     dependencies:
       picomatch: 2.3.1
 
-  readdirp@4.1.1:
-    optional: true
+  readdirp@4.1.1: {}
 
   recursive-readdir@2.2.3:
     dependencies:
@@ -11051,22 +11051,21 @@ snapshots:
 
   sanitize.css@13.0.0: {}
 
-  sass-loader@12.6.0(sass@1.83.4)(webpack@5.97.1):
+  sass-loader@12.6.0(sass@1.85.1)(webpack@5.97.1):
     dependencies:
       klona: 2.0.6
       neo-async: 2.6.2
       webpack: 5.97.1
     optionalDependencies:
-      sass: 1.83.4
+      sass: 1.85.1
 
-  sass@1.83.4:
+  sass@1.85.1:
     dependencies:
       chokidar: 4.0.3
       immutable: 5.0.3
       source-map-js: 1.2.1
     optionalDependencies:
       '@parcel/watcher': 2.5.0
-    optional: true
 
   sax@1.2.4: {}
 
