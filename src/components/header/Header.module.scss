@@ -1,5 +1,5 @@
 @import "../../scss/variables";
-
+@import "../../scss/mixins";
 .header {
   text-align: center;
   padding: 0.5rem;
@@ -7,15 +7,11 @@
   h1 {
     font-size: 2.3rem;
     margin-bottom: 1rem;
-    color: $cardNavBgColor;
+    color: $titleColor;
     font-family: monospace;
   }
   .btn {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+    @include flex(row, center, 1rem);
     button {
       padding: 1rem;
       border-radius: 1rem;
