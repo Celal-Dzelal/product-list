@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header categories={categories} title="Product List" />
-      <ProductList />
+      <ProductList products={products} />
     </div>
   );
 }
